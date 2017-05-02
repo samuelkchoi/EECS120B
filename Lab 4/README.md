@@ -8,4 +8,7 @@
 # 2. 
 *Buttons are connected to PA0 and PA1. Output for PORTB is initially 0. Pressing PA0 increments PORTB (stopping at 9). Pressing PA1 decrements PORTB (stopping at 0). If both buttons are depressed (even if not initially simultaneously), PORTB resets to 0. If a reset occurs, both buttons should be fully released before additional increments or decrements are allowed to happen. Use LEDs (and resistors) on PORTB. Use a state machine (not synchronous) captured in C.*
 
-*Now implemented using LEDs
+*Now implemented using LEDs*
+
+# 3.
+*Create your own festive lights display with 6 LEDs connected to port PB5..PB0, lighting in some attractive sequence. Pressing the button on PA0 changes the lights to the next configuration in the sequence.  Use a state machine (not synchronous) captured in C.*
