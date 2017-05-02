@@ -10,11 +10,10 @@
 #include <avr/interrupt.h>
 #include "io.c"
 
-volatile unsigned char TimerFlag = 0; // TimerISR() sets this to 1. C programmer should clear to 0.
+volatile unsigned char TimerFlag = 0; 
 
-// Internal variables for mapping AVR's ISR to our cleaner TimerISR model.
-unsigned long _avr_timer_M = 1; // Start count from here, down to 0. Default 1 ms.
-unsigned long _avr_timer_cntcurr = 0; // Current internal count of 1ms ticks
+unsigned long _avr_timer_M = 1;
+unsigned long _avr_timer_cntcurr = 0;
 
 enum States{init, light0, light1, light2, incr, decr} state;
 
@@ -24,16 +23,16 @@ unsigned char currentscore = 0x00;
 unsigned char statecounter = 0x00;
 
 void TimerOn() {
-	TCCR1B = 0x0B;// bit3 = 0: CTC mode (clear timer on compare)
-	OCR1A = 125;	// Timer interrupt will be generated when TCNT1==OCR1A
-	TIMSK1 = 0x02; // bit1: OCIE1A -- enables compare match interrupt
+	TCCR1B = 0x0B;
+	OCR1A = 125;
+	TIMSK1 = 0x02; 
 	TCNT1=0;
 	_avr_timer_cntcurr = _avr_timer_M;
-	SREG |= 0x80; // 0x80: 1000000
+	SREG |= 0x80;
 }
 
 void TimerOff() {
-	TCCR1B = 0x00; // bit3bit1bit0=000: timer off
+	TCCR1B = 0x00; 
 }
 
 void TimerISR() {
