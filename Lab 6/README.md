@@ -5,4 +5,3 @@
   
 ### 2. 
 *Extend the earlier light game to maintain a score on the LCD display. The initial score is 5. Each time the user presses the button at the right time, the score increments. Each time the user fails, the score decrements. When reaching 9, show victory somehow.*
-
