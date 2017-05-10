@@ -11,7 +11,7 @@
 ohm resistor. Take note of the highest ADC value displayed when the photoresistor is exposed to light, and the lowest ADC value displayed when the photoresistor is deprived of all light. These values will be used for the remaining lab exercises.*
 
 ## 3. 
-*Design a system where an LED is illuminated if enough light is detected from the photo resistor.*
+*Design a system where an LED is illuminated if enough light is detected from the photo resistor.*  
    *Criteria*  
      *If the result of the ADC is >= MAX/2, the LED is illuminated.*
      *If the result of the ADC is < MAX/2, the LED is turned off.*
