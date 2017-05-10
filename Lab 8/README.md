@@ -1,10 +1,10 @@
 # Exercises
 
 # Prelab
-*Wire accordingly 
-input: PA[0] connected to potentiometer
-output:	PB[7:0] connected to LEDs
-        PD[1:0] connected to LEDs*
+*Wire accordingly* 
+*input: PA[0] connected to potentiometer*
+*output: PB[7:0] connected to LEDs*
+         *PD[1:0] connected to LEDs*
 
 # 1. 
 *Make sure your breadboard is wired according to the prelab. The potentiometer is used to adjust the voltage supplied to the microcontroller for ADC . Design a system that reads the 10-bit ADC result from the ADC register, and displays the result on a bank of 10 LEDs.*
