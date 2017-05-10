@@ -17,11 +17,11 @@ ohm resistor. Take note of the highest ADC value displayed when the photoresisto
 
 ## 3. 
 *Design a system where an LED is illuminated if enough light is detected from the photo resistor.*  
-**Criteria**
+**Criteria:**
   * *If the result of the ADC is >= MAX/2, the LED is illuminated.*
   * *If the result of the ADC is < MAX/2, the LED is turned off.*
 
 ## 4.
-*Design a system, using a bank of eight LEDs, where the number of LEDs illuminated is a representation of how much light is detected. For example, when more light is detected, more LEDs are illuminated.*
-**Criteria**
+*Design a system, using a bank of eight LEDs, where the number of LEDs illuminated is a representation of how much light is detected. For example, when more light is detected, more LEDs are illuminated.*  
+**Criteria:**
   * *The LEDs should illuminated in sequence from 0 to 7, based on the amount of light detected by the photoresistor.*
