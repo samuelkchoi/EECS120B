@@ -4,6 +4,7 @@
 *Wire accordingly*  
 **INPUT:**  
   * *PA[0] connected to potentiometer.*  
+
 **OUTPUT:**  
   * *PB[7:0] connected to LEDs PD[1:0] connected to LEDs.*
 
