@@ -7,5 +7,4 @@
 *Modify the above example so the three LEDs light for 300 ms, while PB3's LED still blinks 1 second on and 1 second off.*
 
 ### 3. 
-*To the previous exercise's implementation, connect your speaker's red wire to PB4 and black wire to ground. Add a third task that toggles PB4 on for 2 ms and off for 2 ms as long as a switch on PA2 is in the on position.*
- 
+*To the previous exercise's implementation, connect your speaker's red wire to PB4 and black wire to ground. Add a third task that toggles PB4 on for 2 ms and off for 2 ms as long as a switch on PA2 is in the on position.*  
