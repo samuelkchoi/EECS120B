@@ -1,6 +1,6 @@
 # Exercises
 
-# Prelab.
+# Prelab
 *Wire accordingly 
 input: PA[0] connected to potentiometer
 output:	PB[7:0] connected to LEDs
