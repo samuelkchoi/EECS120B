@@ -21,4 +21,3 @@
   * *When the button is pressed, the melody should play until completion.*
   * *Pressing the button again in the middle of the melody should do nothing.*
   * *If the button is pressed and held, when the melody finishes, it should not repeat until the button is released and pressed again.*
-
